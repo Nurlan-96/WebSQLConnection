@@ -1,0 +1,11 @@
+﻿@model List<Student>
+<h1>Students Page</h1>
+
+<ul>
+    @foreach (var student in Model)
+    {
+        <li>
+            <a href="/home/index?groupId==@student.GroupId">Student Id: @student.Id  Student Name: @student.Name</a>
+        </li>
+    }
+</ul>

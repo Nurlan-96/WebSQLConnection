@@ -1,0 +1,11 @@
+﻿@model List<Group>
+<h1>Index Page</h1>
+
+<ul>
+    @foreach (var group in Model)
+    {
+        <li>
+            <a href="/student/index?groupId=@group.Id">Group Id: @group.Id  Group Name: @group.Name </a>
+        </li>
+    }
+</ul>

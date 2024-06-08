@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "ovxoUkkPMvtJfYNWT+vSlEJZNzHm6rmupdaM+K6MjMc=",
+  "Source": "WebAppSQLConnection",
+  "BasePath": "_content/WebAppSQLConnection",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebAppSQLConnection\\wwwroot",
+      "Source": "WebAppSQLConnection",
+      "ContentRoot": "C:\\Users\\Uncle Nurlan\\Desktop\\WebAppSQLConnection\\WebAppSQLConnection\\wwwroot\\",
+      "BasePath": "_content/WebAppSQLConnection",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
